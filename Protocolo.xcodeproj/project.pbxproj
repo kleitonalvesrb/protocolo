@@ -20,6 +20,7 @@
 		63495D3A1DE514BE008C51E5 /* Protocolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495D391DE514BE008C51E5 /* Protocolo.swift */; };
 		638831961E0CBDBC00D565A0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638831941E0CBDBC00D565A0 /* Bolts.framework */; };
 		638831971E0CBDBC00D565A0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638831951E0CBDBC00D565A0 /* Parse.framework */; };
+		638A1D471E0DBDD900617CA3 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A1D461E0DBDD900617CA3 /* InitViewController.swift */; };
 		638D542B1E0CBC2B004EFAA7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D542A1E0CBC2B004EFAA7 /* AudioToolbox.framework */; };
 		638D542D1E0CBC37004EFAA7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D542C1E0CBC37004EFAA7 /* CFNetwork.framework */; };
 		638D542F1E0CBC43004EFAA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D542E1E0CBC43004EFAA7 /* CoreGraphics.framework */; };
@@ -33,6 +34,11 @@
 		638D543E1E0CBCF8004EFAA7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D54251E0CBBE0004EFAA7 /* Bolts.framework */; };
 		638D54401E0CBCF8004EFAA7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638D54261E0CBBE0004EFAA7 /* Parse.framework */; };
 		63AC4E8B1DE520F70054993A /* Validadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC4E8A1DE520F70054993A /* Validadores.swift */; };
+		63B64B741E0E1CBC006A2F25 /* InitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B64B731E0E1CBC006A2F25 /* InitTableViewCell.swift */; };
+		63B64B771E0EA5EF006A2F25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B64B761E0EA5EE006A2F25 /* LoginViewController.swift */; };
+		63B64B791E0EA5FC006A2F25 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B64B781E0EA5FC006A2F25 /* CadastroViewController.swift */; };
+		63B64B7C1E0EAC7E006A2F25 /* Utilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B64B7B1E0EAC7E006A2F25 /* Utilidades.swift */; };
+		63B64B7E1E0F122C006A2F25 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B64B7D1E0F122C006A2F25 /* Usuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +70,7 @@
 		63495D391DE514BE008C51E5 /* Protocolo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocolo.swift; sourceTree = "<group>"; };
 		638831941E0CBDBC00D565A0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		638831951E0CBDBC00D565A0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		638A1D461E0DBDD900617CA3 /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		638D54251E0CBBE0004EFAA7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "/Users/kleitonbatista/Documents/Frameworks/Parse-iOS/Bolts.framework"; sourceTree = "<absolute>"; };
 		638D54261E0CBBE0004EFAA7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "/Users/kleitonbatista/Documents/Frameworks/Parse-iOS/Parse.framework"; sourceTree = "<absolute>"; };
 		638D542A1E0CBC2B004EFAA7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -77,6 +84,11 @@
 		638D543A1E0CBC87004EFAA7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		638D543C1E0CBC91004EFAA7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		63AC4E8A1DE520F70054993A /* Validadores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validadores.swift; path = Protocolo/Utilidades/Validadores.swift; sourceTree = "<group>"; };
+		63B64B731E0E1CBC006A2F25 /* InitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitTableViewCell.swift; sourceTree = "<group>"; };
+		63B64B761E0EA5EE006A2F25 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		63B64B781E0EA5FC006A2F25 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		63B64B7B1E0EAC7E006A2F25 /* Utilidades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilidades.swift; sourceTree = "<group>"; };
+		63B64B7D1E0F122C006A2F25 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +147,9 @@
 		63495D1D1DE4F9AA008C51E5 /* Protocolo */ = {
 			isa = PBXGroup;
 			children = (
+				63B64B7A1E0EA945006A2F25 /* protocolo */,
+				63B64B751E0EA5CE006A2F25 /* Login */,
+				638A1D451E0DBDC100617CA3 /* menu */,
 				63AC4E891DE520D50054993A /* entidade */,
 				63495D351DE5103E008C51E5 /* right.png */,
 				63495D1E1DE4F9AA008C51E5 /* AppDelegate.swift */,
@@ -144,10 +159,17 @@
 				63495D2A1DE4F9AA008C51E5 /* LaunchScreen.storyboard */,
 				63495D2D1DE4F9AA008C51E5 /* Info.plist */,
 				63495D251DE4F9AA008C51E5 /* Protocolo.xcdatamodeld */,
-				63495D331DE50AF2008C51E5 /* TableViewCell.swift */,
-				63495D371DE5140C008C51E5 /* AddProtocoloViewController.swift */,
 			);
 			path = Protocolo;
+			sourceTree = "<group>";
+		};
+		638A1D451E0DBDC100617CA3 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				638A1D461E0DBDD900617CA3 /* InitViewController.swift */,
+				63B64B731E0E1CBC006A2F25 /* InitTableViewCell.swift */,
+			);
+			name = menu;
 			sourceTree = "<group>";
 		};
 		638D54241E0CBB91004EFAA7 /* Framework */ = {
@@ -180,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				63495D391DE514BE008C51E5 /* Protocolo.swift */,
+				63B64B7D1E0F122C006A2F25 /* Usuario.swift */,
 			);
 			name = entidade;
 			sourceTree = "<group>";
@@ -188,8 +211,27 @@
 			isa = PBXGroup;
 			children = (
 				63AC4E8A1DE520F70054993A /* Validadores.swift */,
+				63B64B7B1E0EAC7E006A2F25 /* Utilidades.swift */,
 			);
 			name = Utilidades;
+			sourceTree = "<group>";
+		};
+		63B64B751E0EA5CE006A2F25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				63B64B761E0EA5EE006A2F25 /* LoginViewController.swift */,
+				63B64B781E0EA5FC006A2F25 /* CadastroViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		63B64B7A1E0EA945006A2F25 /* protocolo */ = {
+			isa = PBXGroup;
+			children = (
+				63495D331DE50AF2008C51E5 /* TableViewCell.swift */,
+				63495D371DE5140C008C51E5 /* AddProtocoloViewController.swift */,
+			);
+			name = protocolo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,13 +310,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B64B7E1E0F122C006A2F25 /* Usuario.swift in Sources */,
 				63495D211DE4F9AA008C51E5 /* ViewController.swift in Sources */,
 				63495D341DE50AF2008C51E5 /* TableViewCell.swift in Sources */,
 				63AC4E8B1DE520F70054993A /* Validadores.swift in Sources */,
 				63495D381DE5140C008C51E5 /* AddProtocoloViewController.swift in Sources */,
 				63495D271DE4F9AA008C51E5 /* Protocolo.xcdatamodeld in Sources */,
 				63495D1F1DE4F9AA008C51E5 /* AppDelegate.swift in Sources */,
+				63B64B741E0E1CBC006A2F25 /* InitTableViewCell.swift in Sources */,
+				638A1D471E0DBDD900617CA3 /* InitViewController.swift in Sources */,
+				63B64B771E0EA5EF006A2F25 /* LoginViewController.swift in Sources */,
 				63495D3A1DE514BE008C51E5 /* Protocolo.swift in Sources */,
+				63B64B791E0EA5FC006A2F25 /* CadastroViewController.swift in Sources */,
+				63B64B7C1E0EAC7E006A2F25 /* Utilidades.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
